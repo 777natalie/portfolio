@@ -36,7 +36,7 @@ export default function Projects() {
           <div className="proj-header">
             <p className="proj-eyebrow">[ p ] projects</p>
             <h2 className="proj-title">Selected Work</h2>
-            <span className="proj-range">2024 — 2026</span>
+            <span className="proj-range">2025 — 2026</span>
             <div className="proj-divider" />
           </div>
           {projects.map((project) => (
