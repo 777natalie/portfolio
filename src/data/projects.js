@@ -1,3 +1,5 @@
+import capstoneImg from "../assets/images/capstone.png"
+import secondProjectImg from "../assets/images/secondproject.png"
 export const projects = [
   {
     id: 1,
@@ -7,7 +9,7 @@ export const projects = [
     description:
       "QA pipeline built with the Norman Police Department to grade 911 dispatcher transcripts against EMS protocol requirements. Built a dual-grader architecture: a deterministic rule-based engine for traceable scoring, and a local LLM (Ollama + FAISS embeddings) for paraphrase detection — all on-premise, no PHI leaves the machine. Handled protocol CSV parsing, AI model selection, and docs.",
     tech: ["REACT", "TYPESCRIPT", "FASTAPI", "POSTGRES", "OLLAMA", "FAISS"],
-    image: "/src/assets/images/capstone.png",
+    image: capstoneImg,
     link: "https://github.com/777natalie/GroupG_CS4273Capstone",
     locked: false,
   },
@@ -31,7 +33,7 @@ export const projects = [
     description:
       "End-to-end encrypted peer-to-peer messaging application built from scratch in Python. Implements AES-256 symmetric encryption, PBKDF2 key derivation, raw socket networking, and Diffie-Hellman key exchange.",
     tech: ["PYTHON", "AES-256", "DIFFIE-HELLMAN", "SOCKETS"],
-    image: "/src/assets/images/secondproject.png",
+    image: secondProjectImg,
     link: "https://github.com/777natalie/P2PMessaging",
     locked: false,
   },

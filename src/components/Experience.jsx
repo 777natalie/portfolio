@@ -70,7 +70,7 @@ export default function Experience() {
                 <div className="exp-card-role-row">
                   <span className="exp-card-role-icon">◫</span>
                   <span className="exp-card-role">{job.role}</span>
-                  <span className="exp-card-arrow">↗</span>
+                  <span className="exp-card-arrow">&rarr;</span>
                 </div>
                 <ul className="exp-card-bullets">
                   {job.bullets.map((b, j) => (
